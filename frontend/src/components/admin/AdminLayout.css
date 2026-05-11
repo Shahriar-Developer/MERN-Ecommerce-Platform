@@ -1,0 +1,34 @@
+/* GHORER BAZAR MODERN ADMIN LAYOUT */
+/* All styles are now inline in AdminLayout.tsx */
+/* This file is kept for reference only */
+
+/* LEGACY STYLES - DO NOT USE */
+/* Styles have been migrated to inline CSS within the component */
+  font-weight: 500 !important;
+  margin-left: 10px !important;
+}
+
+/* MAIN CONTENT BODY */
+.gb-main-content {
+  flex: 1 !important;
+  transition: margin-left 0.3s ease !important;
+}
+.is-expanded .gb-main-content {
+  margin-left: 260px !important;
+}
+.is-collapsed .gb-main-content {
+  margin-left: 80px !important;
+}
+
+.gb-topbar {
+  background: white !important;
+  padding: 15px 35px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05) !important;
+}
+
+.gb-page-body {
+  padding: 40px !important;
+}
